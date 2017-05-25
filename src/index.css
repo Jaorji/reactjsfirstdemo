@@ -1,0 +1,52 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+table {
+    border: 1px solid black;
+}
+
+.list-detail{
+  border-style:solid;
+  border-color:grey;
+  border-radius: 25px;
+  border-bottom: hidden;
+}
+.list-commentwithpost{
+  border-style:solid;
+  border-color:grey;
+  border-radius: 25px;
+  border-bottom: hidden;
+}
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
