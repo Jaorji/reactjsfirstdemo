@@ -12,7 +12,8 @@ After installation successfully,then can start npm:
 ```
 npm start
 ```
+# Picture
 ![](https://github.com/Jaorji/reactjsfirstdemo/blob/master/0C2B02A8-4397-42FB-A293-7D05CB70B0AA.png)  
 This is my first react demo . It used axios to fetch data from jsonplaceholder.http://jsonplaceholder.typicode.com/posts
-
+# Function
 It will show posts and when click the post it will show the commets from different people.
